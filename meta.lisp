@@ -63,6 +63,8 @@
   (ccl:quit)
   #+gcl
   (lisp:bye)
+  #+abcl
+  (extensions:exit)
   #-(or sbcl clisp ecl ccl gcl)
   (implementation-dependent-quit))
 

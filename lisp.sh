@@ -18,6 +18,7 @@ try lx86cl "--eval"
 try wx86cl "--eval"
 try wx86cl64 "--eval"
 try gcl "-eval"
+try abcl "--noinform --eval"
 
 echo No Lisp found.
 exit 1
